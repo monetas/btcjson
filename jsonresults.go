@@ -691,7 +691,7 @@ func ReadResultCmd(cmd string, message []byte) (Reply, error) {
 		"sendrawtransaction", "getbestblockhash", "getrawchangeaddress",
 		"sendfrom", "sendmany", "addmultisigaddress", "getunconfirmedbalance",
 		"getaccountaddress", "estimatefee", "estimatepriority",
-		"getdepositscript":
+		"getdepositscript", "createseries":
 		err = json.Unmarshal(message, &result)
 	default:
 		// None of the standard Bitcoin RPC methods matched.  Try
