@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/btcsuite/btcjson"
+	"github.com/monetas/btcjson"
 )
 
 var resulttests = []struct {
